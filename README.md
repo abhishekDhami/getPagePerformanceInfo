@@ -1,0 +1,2 @@
+# getPagePerformanceInfo
+Javascript plugin: getPagePerformanceInfo
