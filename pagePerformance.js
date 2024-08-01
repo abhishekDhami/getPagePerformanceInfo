@@ -13,7 +13,7 @@ function getCurrentPagePerformanceInfo() {
       //reload, navigate, back_forward
       if (performanceEntries.type) currentPagePerformanceInfo.navigationType = performanceEntries.type;
 
-      //(milliseconds)time required for the connection to the server was fully established and the server is ready to receive requests.
+      //time required for the connection to the server was fully established and the server is ready to receive requests.
       //including DNS lookup, TCP connection, and SSL handshake timings
       if (performanceEntries.connectEnd) currentPagePerformanceInfo.connectEnd = (performanceEntries.connectEnd / 1000).toFixed(2);
 
